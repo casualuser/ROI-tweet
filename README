@@ -1,0 +1,6 @@
+how-to-run instructions
+
+source ./venv/bin/activate
+pip install requirements.txt
+python ./tweet/manage.py migrate
+python ./tweet/manage.py runserver
