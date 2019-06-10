@@ -79,8 +79,6 @@
 
 <script>
 
-    Vue.use(SmartTable)
-
     Vue.filter('formatDate', function(parmval) {
         if (parmval) {
             return moment(String(parmval)).format('MM/DD/YYYY HH:mm')
